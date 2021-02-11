@@ -1,0 +1,31 @@
+
+@charset "utf-8";
+// command to update css file 
+// npm run css-build
+
+
+
+
+
+
+$input-border-color:hsl(204, 86%, 53%);
+$input-icon-color: hsl(204, 39%, 69%); 
+$input-icon-active-color: hsl(204, 86%, 53%);
+$input-hover-border-color:hsl(204, 86%, 53%) ;
+
+button.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+
+    border-radius: 50px;
+    width:40%;    //Specify your width here
+};
+i.mainicon{
+    color:hsl(204, 86%, 53%) ;
+}
+
+@import "./node_modules/bulma/bulma.sass";
+@import "./node_modules/bulma/sass/elements/button";
+@import "./node_modules/bulma/sass/form/_all.sass";
+
+

@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-md-6 mx-auto">
+        <card class=" card card-body">
+            <div class="container">
+
+
+                <i class="fas fa-play-circle fa-6x mainicon"></i>
+            </div>
+            <h2 class="text-center title ">
+                Account Login
+            </h2>
+            <form action="/users/login" method="POST">
+
+                <div class <div class="field mt-4">
+                    <label class="label">Email</label>
+                    <p class="control has-icons-left has-icons-right">
+                        <input class="input is-rounded is-medium" type="email" name="email" placeholder="Email"
+                            required>
+                        <span class="icon is-small  is-left">
+                            <i class="fas fa-bell logo "></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </p>
+                </div>
+
+
+                <div class="field">
+                    <label class="label">Password</label>
+                    <p class="control has-icons-left has-icons-right">
+                        <input class="input is-medium is-rounded" name="password" type="password" placeholder="Password"
+                            required>
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                            <i class="fas fa-check"></i>
+                        </span>
+                    </p>
+                </div>
+
+
+                <div class=" text-center">
+                    <button class="button  is-info is-outlined mt-4  btn-xl  " type="submit">Login
+                    </button>
+                </div>
+            </form>
+
+        </card>
+    </div>
+</div>
